@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="./css/welcome.css" />
+    <script src="./js/jquery.js"></script>
+    <script src="./js/globals.js"></script>
+    <script src="./js/welcome.js"></script>
+    <script src="./js/editor.js"></script>
+    <script src="./js/caret.js"></script>
+    <script src="./js/prism.js"></script>
+    <link rel="stylesheet" href="./css/prism.css" />
+  </head>
+  <body>
+    <div class="uiholder">
+      <ul class="sidebar"></ul>
+      <div class="base-container">
+        <div class="welcome">
+          <h1>Welcome to Arctic, The new, hyper fast IDE!</h1>
+          <h2>
+            You can open a folder, start a new project or just get down and
+            dirty in a file!
+          </h2>
+          <ul class="welcomeitems">
+            <li>
+              <a href="javascript:void(0)" onclick="openFolder()"
+                >Open Folder</a
+              >
+            </li>
+            <li>
+              <a href="javascript:void(0)" onclick="newProject()"
+                >New Project</a
+              >
+            </li>
+            <li>
+              <a href="javascript:void(0)" onclick="newFile()">New File</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

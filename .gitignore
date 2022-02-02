@@ -1,0 +1,7 @@
+
+static/js/languages/*
+static/js/styles/*
+static/inspector/*
+.vscode/launch.json
+output.html
+out.log
