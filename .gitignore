@@ -1,7 +1,5 @@
 
-static/js/languages/*
-static/js/styles/*
-static/inspector/*
-.vscode/launch.json
+.vscode/
 output.html
 out.log
+*.7z
