@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="./assets/css/welcome.css" />
+    <script defer src="./assets/js/jquery.js"></script>
+    <script defer src="./assets/js/globals.js"></script>
+    <script defer src="./assets/js/welcome.js"></script>
+    <script defer src="./assets/js/editor.js"></script>
+    <script defer src="./assets/js/caret.js"></script>
+    <script defer src="./assets/js/prism.js"></script>
+    <link defer rel="stylesheet" href="./assets/css/prism.css" />
+  </head>
+  <body class="line-numbers">
+    <div class="uiholder">
+      <ul class="sidebar"></ul>
+      <div class="base-container">
+        <div class="welcome">
+          <h1>Welcome to Arctic, The new, hyper fast IDE!</h1>
+          <h2>
+            You can open a folder, start a new project or just get down and
+            dirty in a file!
+          </h2>
+          <ul class="welcomeitems">
+            <li>
+              <a href="javascript:void(0)" onclick="openFolder()"
+                >Open Folder</a
+              >
+            </li>
+            <li>
+              <!--href="javascript:void(0)"-->
+              <strike><a onclick="newProject()">New Project</a></strike>
+            </li>
+            <li>
+              <!--href="javascript:void(0)"-->
+              <strike><a onclick="newFile()">New File</a></strike>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

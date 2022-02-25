@@ -27,3 +27,5 @@ func DetectLanguage(filepath string) (string, error) {
 
 	return lang, err
 }
+
+// TODO: Add a map between what enry produces and what prism recognises as a code. For example, enry returns "C++" but prism need "cpp"

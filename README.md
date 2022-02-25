@@ -5,10 +5,9 @@ Made with golang, jquery, and suffering.
 
 ## Tech stack:
 
-- Main logic: [Golang](https://golang.org/), [JQuery](http://jquery.com/)
+- Main logic: [Golang](https://golang.org/), [JavaScript](https://www.javascript.com/)
 - Static file serving: [Packr](https://github.com/gobuffalo/packr/v2)
-- Webview: [Ultralight](https://ultralig.ht/)
-- Go to webview interface: [Muon](https://github.com/ImVexed/muon)
+- Webview: [Ultralight](https://ultralig.ht/) ([Muon](https://github.com/ImVexed/muon) used as bridge between Ultralight and Golang)
 - Stylesheet preprocessor: [Sass](http://sass-lang.com/)
 - Syntax highlighter: [Prism](https://prismjs.com/)
 - Language detection: [Enry](https://github.com/src-d/enry/v2)
@@ -32,3 +31,16 @@ cd arctic
 go build
 arctic.exe
 ```
+
+## Development
+
+If you wanna help out, great! Fork the repo, do your magic then submit a pull request. If it isn't terrible, I'll merge it and we can all have a nicer, more functional version of this mess.
+
+### Stuff to do
+
+- Sort out the application of stylesheets/scripts
+- Split the html into different files somehow
+- Create a way to convert ts files to a valid extension
+- Unfuck the directory picker
+- Config files :)
+- Installer
